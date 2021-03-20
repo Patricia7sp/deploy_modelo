@@ -1,4 +1,5 @@
 # importando as bibiliotecas
+from sklearn.ensemble import BaggingClassifier
 import streamlit as st
 import pandas as pd
 import numpy as np
