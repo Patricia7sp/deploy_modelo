@@ -7,9 +7,7 @@ import pickle
 
 
 # Carregando o modelo
-abrir =  open("avaliacao_v2.pkl", "rb")
-model = pickle.load(abrir)
-abrir.close()
+model =  pickle.load(open('avaliacao_v2.pkl', 'rb'))
 
 
 
