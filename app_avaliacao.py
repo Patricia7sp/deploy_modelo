@@ -6,7 +6,10 @@ import pickle
 
 
 # Carregando o modelo
-model =  pickle.load(open('avaliacao_v2.pkl', 'rb'))
+abrir =  open("avaliacao_v2.pkl", "rb")
+model = pickle.load(abrir)
+abrir.close()
+
 
 
 # Criando uma função para receber as features
