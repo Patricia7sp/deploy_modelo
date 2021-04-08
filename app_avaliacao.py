@@ -37,8 +37,8 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
     st.sidebar.subheader('Por favor preencha as informações abaixo e clique no botão para saber qual será a sua avaliação!')
-    st.sidebar.warning('Para preecher o Campo Wifi considere: 0=Não tem, 1=Wifi Pago, 2=Wifi Gratuito')
-    st.sidebar.warning('Para preecher os demais campos considere: 0=Sim e 1=Não')
+    st.sidebar.warning('Para preencher o Campo Wifi considere: 0=Não tem, 1=Wifi Pago, 2=Wifi Gratuito')
+    st.sidebar.warning('Para preencher os demais campos: 0=Sim e 1=Não')
     
     
     # inserindo os dados para predição
