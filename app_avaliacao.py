@@ -25,7 +25,7 @@ def main():
     # Add titulo, imagem e uma pequena descrição do nosso projeto
     from PIL import Image
     image =  Image.open("stars.png")
-    st.image(image, use_column_width=False)
+    st.image(image, use_column_width=True)
    
 
     
@@ -71,7 +71,6 @@ def main():
         
         if output > 0.6:
             st.markdown(ruim_html,unsafe_allow_html=True)
-            st.info('Você precisa melhorar :(')
         else:
             st.markdown(boa_html,unsafe_allow_html=True)
             st.balloons()
