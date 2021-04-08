@@ -1,6 +1,5 @@
 # importando as bibiliotecas
 from sklearn.ensemble import BaggingClassifier
-# importando as bibiliotecas
 import streamlit as st
 import pandas as pd
 import numpy as np
